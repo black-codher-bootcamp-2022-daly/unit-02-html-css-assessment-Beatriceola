@@ -64,6 +64,9 @@
    
 } 
 
+a:link{
+    text-decoration: none;
+}
 
 .hero {
     width: 100%;
@@ -103,12 +106,15 @@
     overflow: hidden;
     transition: 0.2s;
     z-index: 9999;  
+    f
+
 }  
 
 
 
 .tab:hover {
     letter-spacing: 6px;
+    text-decoration:
 }
 
 .showcase {
@@ -253,6 +259,19 @@
     height: 100%;
     background: pink; 
     mix-blend-mode: overlay;
+
+
+
+
+
+
+
+    /*min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    z-index: 992;
+    background-size: cover;*/
 }
 
 
@@ -328,6 +347,7 @@
 
 .text a:hover {
     letter-spacing: 6px;
+    text-decoration: none;
 }
 
 
