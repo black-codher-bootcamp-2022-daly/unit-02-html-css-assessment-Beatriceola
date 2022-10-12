@@ -14,6 +14,57 @@
 .header{
     width: 100
 }
+
+.foot{ 
+    position: relative;
+    background-color:#222;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #e2e5de;
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.fh{     
+    position: relative;
+    color: #cacaca;
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-size: 1.15em;
+    line-height: 1.7em;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.social{
+    align-items: center; 
+    justify-content: space-between 
+    display: inline-block;
+    position:calc(60);
+    bottom: 20px;
+    z-index: 10;
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+   
+} 
+
+
 .hero {
     width: 100%;
     position: relative;
@@ -51,8 +102,7 @@
     position: relative;
     overflow: hidden;
     transition: 0.2s;
-    z-index: 9999;
-    
+    z-index: 9999;  
 }  
 
 
@@ -282,29 +332,35 @@
 
 
 
-.socials {
-    position: absolute;
-    bottom: 20px;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
+
+
+.socials h2{
+    position: relative;
+    color: #cacaca;
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+
 }
 
-.social li {
-    list-style: none;
+.socials li{
+
 }
 
-socials li a {
-    display: inline-block
-    filter: invert(1);
-    margin-right: 20px;
-    transform: scale(0.5);
-    transition: 0.5s;
-}
 
-.social li a:hover {
-    transform: scale(0.5) translateY(-15px);
-}
+
+
 
 @media (max-width: 991px) {
     .showcase,
@@ -434,4 +490,4 @@ div{
     position: relative;
     overflow: hidden;
 } 
-=
+
