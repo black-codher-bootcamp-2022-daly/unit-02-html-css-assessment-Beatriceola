@@ -1,5 +1,5 @@
 @font-face {
-    src: url(Silkscreen-Bold.ttf);
+    src: url(fonts/Silkscreen-Bold.ttf);
     font-family: silk
 }
 
@@ -9,318 +9,20 @@
     padding: 0;
     font-family: silk;
     color: goldenrod
+    /* goldenrod; */
 }
 
-.body {
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(to right rgba(0,0,0,1), rgba(0,0,0,1));
-    background-size: cover;
-    background-position: center;
-    color: #e2e5de;
-    font-size: 30px;
-    cursor: pointer;
+.homevideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
 }
 
-.about-me {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.about{
-    width: 90%;
-    max-width 1000px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.halfpic {
-    background-image: url(profile-img.png);
-    min-width: 50vw;
-    min-height: 100vh;
-} 
-
-
-.hero_imgs {
-    object-fit: cover;
-    display: flex;
-    background-image: linear-gradient(to right rgba(0,0,0,1), rgba(0,0,0,1));
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 29;
-    cursor: pointer;
-    mix-blend-mode: overlay;
-}
-
-.overlay {
-    position:absolute;
-    top: 0;
-    left: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    width: 100%;
-    height: 100%;
-    z-index: 992;
-    /* background: url(video.mp4);
-    background-size: cover; */
-}
-
-.hero_overlay {
-
-}
-
-.video_overlay {
-    object-fit: cover;
-    min-height: 100vh; 
-    min-width: 50vw;
-} 
-
-.navbar {
-    width: 100vw;
-    padding: 40px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    z-index: 10;  
-}
-
-.tab { 
-    align-items: center;
-    justify-content: space-between
-    display: inline-block;
-    padding: 8px 5px;
-    background-color: #313131; 
-    color: #999; 
-    border-width: 1px 1px 2px 1px;
-    border-style: solid;
-    border-color: #222;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: MontSerrat,Tahoma,Arial,sans-serif;
-    font-weight: 700;
-    font-size: .75em;
-    line-height: 1em;
-    box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
-    margin: 3px;
-    opacity: 1;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: 0.2s;
-    z-index: 9999;  
-   
-}  
-
-.tab:hover {
-    letter-spacing: 6px;
-    text-decoration:
-}
-
-/* .text,h2 {
-    font-size: 3em;
-    font-weight: 800;
-    line-height: 1em;
-    text-transform: uppercase;
-    color: goldenrod;
-    opacity: 0.9;
-} */
-
-.about {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.about-text {
-    width: 550px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-}
-
-.about-text h3 {
-    color: #d8b759;
-    font-size: 150px;
-    text-align: center;
-    letter-spacing: 1px;
-    margin: 15px;
-}
-
-.about-text p {
-    color:#e2e5de;
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-
-
-/* .about-text {
-    width: 550px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 50px;
-}
-
-.about-text,h3 {
-    font-size: 5em;
-    font-weight: 800;
-    line-height: 1em;
-    text-transform: uppercase;
-    color: goldenrod;
-    opacity: 0.9;
-    color: #d8b759;
-    font-size: 150px;
-    text-align: center;
-    letter-spacing: 1px;
-    margin: 15px;
-}
-
-.about-text p {
-    color:#e2e5de;
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.about-text h2{
-    font-size: 5em;
-    font-weight: 800;
-    line-height: 1em;
-    text-transform: uppercase;
-    color: goldenrod;
-    opacity: 0.9;
-} */
-/* .video_overlay{ 
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100vw;
-    min-height: 100vh;
-    width: 100%;
-    height: 100%;
-    z-index: 992;
-    background: url(video.mp4);
-    background-size: cover;
-} */
-
-/* .video_overlay {
-    object-fit:contain;min-width: 50vw;
-min-height: 100vh;
-position: relative;
-    background-position: right;
-    background-image: url(video.mp4);
-    background-size: 150px;
-    /* width: 300px;
-    height: 300px; */
-    /* width: 400px; */
-    /* mix-blend-mode: overlay;
-    min-height: 100vh;
-    position: relative;
-    top: 20;
-    z-index: 5;
-    right: 0;
-    object-fit: fill;
-}
-object-fit:contain;
-min-width: 50vw;
-min-height: 100vh;
-position: relative;
-top: 20;
-  z-index: -5;
-  left: 0; */ */
-
-/* 
-  .hero_overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
-    cursor: pointer;
-} */
-
-/* .left{
-    width: 50%;
-    height: 600px;
-    background-image: url(profile-img.png) no-repeat center / cover;
-    border-radius: 8px;
-    object-fit:contain;
-    min-width: 50vw;
-    min-height: 100vh;
-    position: relative;
-    top: 20;
-      z-index: 5;
-      left: 0;
-
-}
-
-.right{
-    width: 50%;
-    min-height: 400px;
-    background-color: darkgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
-    border-radius: 8px;
-    color: white;
-
-    object-fit:contain;
-    min-width: 50vw;
-    min-height: 100vh;
-    position: relative;
-    top: 20;
-      z-index: -5;
-      right: 0;
-}
-
-
-
-
-.hero_imgs {
-    display: flex;
-    background-image: linear-gradient(to right rgba(0,0,0,1), rgba(0,0,0,1));
-}
-
-.hero_overlay{
-  width: 100%; 
-  height: 100%; 
-  background-color: rgba(0, 0, 0, 0.5); Black background with opacity */ */ */
-  /* z-index: 2; 
-  cursor: pointer;
-}
-.video_overlay {
-  object-fit:contain;
-  min-width: 50vw;
-  min-height: 100vh;
-  position: relative;
-  top: 20;
-    z-index: -5;
-    left: 0;
-}
-.halfpic {
-    object-fit:contain;
-  min-width: 50vw;
-  min-height: 100vh;
-  position: relative;
-  top: 20;
-    z-index: -5;
-    left: 0;
-}
-
-
-/* .header{
+.header{
     width: 100
 }
 
@@ -360,7 +62,7 @@ top: 20;
     text-align: center;
 }
 
-.social-media{
+.social{
     align-items: center; 
     justify-content: space-between 
     display: inline-block;
@@ -373,6 +75,22 @@ top: 20;
    
 } 
 
+
+
+
+    /* width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    transition: 0.5s;
+    z-index: 2;  */
+
+    
+}
+
 .a:link{
     text-decoration: none;
 }
@@ -381,6 +99,15 @@ a:link{
     text-decoration: none;
 }
 
+
+.hero {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5%;
+}
 
 .navbar {
     padding: 1.2rem 0;
@@ -413,6 +140,8 @@ a:link{
     z-index: 9999;  
 
 }  
+
+
 
 .tab:hover {
     letter-spacing: 6px;
@@ -447,9 +176,18 @@ a:link{
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
-    z-index: 10;  
+    z-index: 10; 
+   
 }
 
+
+/*.fanarea {
+    width: 100;
+    padding: 0 100px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+}  */
 
 .fanarea {
     z-index: 10;
@@ -458,8 +196,11 @@ a:link{
     align-items: center;
     justify-content: center;
     align-self: center;
-    margin-top: 70px;   
+    margin-top: 70px;
+    
+    
 }
+    
 
 .fanarea ul{
     font-size: 1.1em;
@@ -473,9 +214,17 @@ a:link{
    padding: left 20px; ;
 }
 
-
+.fanarea,h2 {
+   
+}
 
 .showcase,ul{
+    /* position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between; 
 }
@@ -484,6 +233,9 @@ a:link{
     text-transform: uppercase;
     cursor: pointer;
 }
+
+
+
 
 .overlay {
     position:absolute;
@@ -505,10 +257,10 @@ a:link{
 }
 
 .hero_overlay{
-  width: 100%; 
-  height: 100%; 
-  background-color: rgba(0, 0, 0, 0.5); Black background with opacity */ */
-  /* z-index: 2; 
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
 }
 .video_overlay {
@@ -538,10 +290,26 @@ a:link{
     height: 100%;
     background:pink; 
     mix-blend-mode: overlay;
+
+
+
+
+
+
+
+    /*min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    z-index: 992;
+    background-size: cover;*/
 }
 
-.text {
 
+
+
+.text {
+    /* position: relative; */
     z-index: 10;
     display: flex;
     flex-direction: column;
@@ -549,10 +317,8 @@ a:link{
     justify-content: center;
     align-self: center;
     margin-top: 70px;
-
+    /* border: 1px solid red; */
 }
-
-.
 
 .text h2 {
     font-size: 5em;
@@ -619,7 +385,7 @@ a:link{
 }
 
 
-/* 
+
 .socials h2{
     position: relative;
     color: #cacaca;
@@ -638,9 +404,16 @@ a:link{
     margin-inline-end: 0px;
     text-align: center;
 
-} */
+}
 
-/* 
+.socials li{
+
+}
+
+
+
+
+
 @media (max-width: 991px) {
     .showcase,
     .showcase header {
@@ -653,6 +426,44 @@ a:link{
 
 .text h3 {
     font-size: 3em;
+}
+
+
+
+.enter { 
+    inline-block;
+    padding: 8px 5px;
+    background-color: #313131;
+    color: #999;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: .75em;
+    line-height: 2em;
+    box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
+    margin: 3px;
+    opacity: 1;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+@font-face {
+    src: url(fonts/Alexandra.ttf);
+    font-family: alex
+}
+
+.img { 
+    text-align:center;
 }
 
 .menu{
@@ -681,12 +492,23 @@ a:link{
     width: 450px;
     height: 600px;
     background-color: goldenrod;
+
 }
+
 
 h3 {
     color: goldenrod;
     font-family: silk;
 }
+
+.floatingbox {
+    width: 500px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  }
+
 
 .open{ 
     width: 450px;
@@ -719,4 +541,4 @@ div{
     cursor: pointer;
     position: relative;
     overflow: hidden;
-} */ */ */
+} 
