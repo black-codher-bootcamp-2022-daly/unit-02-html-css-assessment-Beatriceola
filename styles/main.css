@@ -40,7 +40,7 @@
     justify-content: center;
 }
 
-.halfpic {
+.profile-img{
     background-image: url(profile-img.png);
     min-width: 50vw;
     min-height: 100vh;
