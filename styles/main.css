@@ -1,13 +1,16 @@
-@font-face {
-    src: url(Silkscreen-Bold.ttf);
-    font-family: silk
-}
+/* @font-face {
+    src: url(Silkscreen-Regular.ttf);
+    font-family: silk;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: silk;
+    font-family: 'Silkscreen', cursive;
     color: goldenrod
 }
 
