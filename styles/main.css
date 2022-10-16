@@ -63,7 +63,7 @@
 
 .social-media{
     align-items: center; 
-    justify-content: space-between 
+    justify-content: space-between; 
     display: inline-block;
     position:calc(60);
     bottom: 20px;
@@ -90,7 +90,7 @@ a:link{
 }
  .tab { 
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
     display: inline-block;
     padding: 8px 5px;
     background-color: #313131;
@@ -117,7 +117,6 @@ a:link{
 
 .tab:hover {
     letter-spacing: 6px;
-    text-decoration:
 }
 
 .name {
@@ -253,8 +252,6 @@ a:link{
 
 }
 
-.
-
 .text h2 {
     font-size: 5em;
     font-weight: 800;
@@ -368,7 +365,7 @@ a:link{
     text-transform: uppercase;
     font-family: MontSerrat,Tahoma,Arial,sans-serif;
     font-weight: 700;
-    font-size: . 75em;
+    font-size: .75em;
     line-height: 1em;
     box-shadow: 1px 1px 0 rgb(0 0 0 / 25%);
     margin: 3px;
@@ -420,4 +417,5 @@ div{
     cursor: pointer;
     position: relative;
     overflow: hidden;
+}
 }
