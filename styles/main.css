@@ -1,10 +1,4 @@
-/* @font-face {
-    src: url(Silkscreen-Regular.ttf);
-    font-family: silk;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-
 
 * {
     box-sizing: border-box;
