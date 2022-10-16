@@ -160,33 +160,35 @@
     letter-spacing: 1px;
 }
 
-.second-line {
-    /* padding: 10px 0 30px 0; */
-    margin-top: 0;
-    font-size: 6em;
-    animation-name: wave-hand;
-    animation-duration: 2s;
-    animation-iteration-count: 2;
-    font-family: 'Permanent Marker', cursive;
-    padding-top: 20px;
-    padding-left: 10px;
-
-    margin-left:12%;
+.work {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/blackmarblebackground.png); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.second-line {
-    padding: 10px 0 15px 0;
+.work h3 {
+    color: #d8b759;
+    font-size: 150px;
+    font-family: 'Comforter', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 25px;
 }
 
-
-
-.second-line{
-    font-size: 6rem;
-    margin: 0;
+.work ul li {
+    color: #d8b759
+    font-size: 30px;
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1px;
 }
-
-
-
 
 /* .about-text {
     width: 550px;
