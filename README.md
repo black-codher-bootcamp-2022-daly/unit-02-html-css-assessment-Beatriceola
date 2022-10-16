@@ -1,4 +1,4 @@
-![Netlify Status](https://api.netlify.com/api/v1/badges/701999bd-95d5-4378-8be0-77aa166dc8c3/deploy-status)](https://app.netlify.com/sites/animated-bonbon-52b572/deploys)
+![Netlify Status](https://api.netlify.com/api/v1/badges/701999bd-95d5-4378-8be0-77aa166dc8c3/deploy-status)]
 
 # HTML and CSS Assessment
 
